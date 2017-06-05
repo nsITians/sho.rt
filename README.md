@@ -6,6 +6,7 @@ Now Shorten the links to your favourite websites and use them.
 
 <pre>Node Dependencies added</pre>
 
+<p>Clone and use!</p>
 ## How to use?
 Make sure you have node and npm installed.
   <br>
@@ -21,6 +22,8 @@ Make sure you have node and npm installed.
 Finally:
   * run mongodb
       <pre> mongod </pre>
+  * run app.js
+      <pre> node app.js</pre>
   * open the localhost!
       <pre>localhost:5000/short<pre>
 ### Author:  [gabru-md](https://github.com/gabru-md)
