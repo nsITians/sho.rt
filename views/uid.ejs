@@ -28,17 +28,17 @@
     </style>
   </head>
   <body>
+    <div style="background-color:#efefef; top:0; right:0;left:0;padding:0.2rem" class="col s12">
+      <h1>Your URL has been trimmed!</h1>
+    </div>
     <div class="container">
       <div class="rows">
         <div class="col s12">
           <h2><br></h2>
         </div>
-        <div class="col s12">
-          <h2>The Shorten Link is: </h2>
-        </div>
         <br>
         <div class="col s12">
-          <p><%= uniqueid %></p>
+          <p>New URL:&nbsp <a target="_blank" href="http://<%= uniqueid %>"> <%= uniqueid %> </a></p>
         </div>
       </div>
       <div class="rows">
