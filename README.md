@@ -5,6 +5,8 @@ Now Shorten the links to your favourite websites and use them.
 
 
 <pre>Node Dependencies added</pre>
+## GIF
+![GIF](https://github.com/nsITians/sho.rt/blob/master/init/gif/short.gif?raw=true)
 
 <p>Clone and use!</p>
 
