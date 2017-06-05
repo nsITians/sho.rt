@@ -1,3 +1,9 @@
+/*
+@Author: Manish Devgan
+@Github: https://github.com/gabru-md
+@Language: Javascript
+*/
+
 var http = require('http');
 var express = require('express');
 var fs = require('fs');
@@ -23,7 +29,16 @@ console.log('Working now!');
 var url = 'mongodb://localhost:27017/database';
 
 var link_db;
+/*
 
+add_link : function used to add
+  the shorten link and the main url to 
+  the database.
+params:
+  link - the original URL
+  id - short id for the URL
+  
+*/
 function add_link(link,id){
 
   var link_db = link;
@@ -55,6 +70,18 @@ function add_link(link,id){
 
 }
 
+/*
+
+get_link : function to get the link 
+  from the database.
+  
+params:
+  uid - unique id for every link 
+  that was generated before.
+  request - request object
+  resp - response object
+  
+*/
 function get_link(uid,request,resp){
 
   var id_db = uid;
@@ -114,6 +141,8 @@ app.get('/short',function(req,res){
   var myInputStream = fs.createReadStream(__dirname + "/shortner.html");
   myInputStream.pipe(res);
 });
+
+
 app.post('/short/url',function(req,res){
   //res.writeHead(200,{'Content-Type':'text/plain'});
   //res.end('URL is : ' + req.body.mainurl_); URL as entered by the user
@@ -126,6 +155,7 @@ app.post('/short/url',function(req,res){
   //console.log(req.body.mainurl);
 });
 
+
 app.get('/:uid',function(req,res){
   //req.url="google.co.in";
   get_link("localhost:5000/" + req.params.uid,req,res);
@@ -133,11 +163,13 @@ app.get('/:uid',function(req,res){
   console.log('Redirector');
 });
 
+
 app.get('/short/error404',function(req,res){
   console.log('Error Page!');
   res.writeHead(200,{'Content-Type':'text/html'});
   var myInputStream = fs.createReadStream(__dirname + "/error.html");
   myInputStream.pipe(res);
 });
+
 
 app.listen(5000);
