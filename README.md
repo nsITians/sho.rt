@@ -16,7 +16,7 @@ Make sure you have node and npm installed.
   * install shortid
       <pre> npm install shortid</pre>
   * install body-parser
-      <pre> npm install boody-parser</pre>
+      <pre> npm install body-parser</pre>
 
 Finally:
   * run mongodb
