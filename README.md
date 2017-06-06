@@ -2,6 +2,9 @@
 URL Shortner for your Local Host!<br>
 Now Shorten the links to your favourite websites and use them.
 
+### PS:
+The folders below have been added to the root by mistake. They are in node_modules.<br>They are to be removed.
+<pre>es6-promise<br>escape-html<br>isarray</pre>
 
 
 <pre>Node Dependencies added</pre>
