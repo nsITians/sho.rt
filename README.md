@@ -16,14 +16,10 @@ The folders below have been added to the root by mistake. They are in node_modul
 ## How to use?
 Make sure you have node and npm installed.
   <br>
-  * install mongodb
-    <pre> npm install mongodb</pre>
-  * install express
-      <pre> npm install express</pre>
-  * install shortid
-      <pre> npm install shortid</pre>
-  * install body-parser
-      <pre> npm install body-parser</pre>
+  * install mongod globally
+    <pre> npm install -g mongod</pre>
+  * install dependencies (express, shortid, body-parser)
+    <pre>npm install</pre>
 
 Finally:
   * run mongodb
