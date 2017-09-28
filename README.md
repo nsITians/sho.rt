@@ -16,8 +16,8 @@ The folders below have been added to the root by mistake. They are in node_modul
 ## How to use?
 Make sure you have node and npm installed.
   <br>
-
-  npm install
+  * install project dependencies
+  <pre>npm install</pre>
 
 Finally:
   * run mongodb
