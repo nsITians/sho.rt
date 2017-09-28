@@ -16,7 +16,7 @@ The folders below have been added to the root by mistake. They are in node_modul
 ## How to use?
 Make sure you have node and npm installed.
   <br>
-  * install npm install
+  * install all depedencies with npm install
     <pre> npm install </pre>
  
 Finally:
