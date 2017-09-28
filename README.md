@@ -31,4 +31,6 @@ Finally:
       
 ### Author: 
 
-[gabru-md](https://github.com/gabru-md)
+Please pay homage to our dear developer who buit this
+
+**[gabru-md](https://github.com/gabru-md)**
