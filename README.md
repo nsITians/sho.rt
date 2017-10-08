@@ -1,6 +1,8 @@
-# sho.rt
-URL Shortner for your Local Host!<br>
-Now Shorten the links to your favourite websites and use them.
+# sho.rt : Your easy URL shortner
+
+
+**URL Shortner** for your Local Host!<br>
+An awesome tool to shorten the links to your favourite websites and use them.
 
 ### PS:
 The folders below have been added to the root by mistake. They are in node_modules.<br>They are to be removed.
@@ -11,20 +13,14 @@ The folders below have been added to the root by mistake. They are in node_modul
 ## GIF
 ![GIF](https://github.com/nsITians/sho.rt/blob/master/init/gif/short.gif?raw=true)
 
-<p>Clone and use!</p>
+<p> Clone and use! </p>
 
 ## How to use?
-Make sure you have node and npm installed.
+Make sure you have *node* and *npm* installed.
   <br>
-  * install mongodb
-    <pre> npm install mongodb</pre>
-  * install express
-      <pre> npm install express</pre>
-  * install shortid
-      <pre> npm install shortid</pre>
-  * install body-parser
-      <pre> npm install body-parser</pre>
-
+  * install all depedencies with npm install
+    <pre> npm install </pre>
+ 
 Finally:
   * run mongodb
       <pre> mongod </pre>
@@ -33,4 +29,8 @@ Finally:
   * open the localhost
       <pre>localhost:5000/short<pre>
       
-### Author:  [gabru-md](https://github.com/gabru-md)
+### Author: 
+
+Please pay homage to our dear developer who buit this
+
+**[gabru-md](https://github.com/gabru-md)**
